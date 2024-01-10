@@ -1,4 +1,13 @@
 {
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main"
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
+  "DeliverToStorage": {
+    "Branches": [ "rkmodify", "main" ]
+  },
+  "DeployToQA":  {
+    "Branches": [ "rkmodify", "main" ],
+    "EnvironmentName":  "BC180",
+    "Projects": "*",
+    "Runs-on":  "Windows-2019"
+}
 }
